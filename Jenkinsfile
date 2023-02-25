@@ -15,7 +15,7 @@ pipeline {
 		stage('Deployment'){
 		    steps {
 			
-			sh 'cp /home/ubuntu/Documents/grras/amazon/target/shopclues.war /home/ubuntu/Downloads/apache-tomcat-9.0.71/webapps'
+			sh 'cp /home/ubuntu/Documents/grras/shopclues/target/shopclues.war /home/ubuntu/Downloads/apache-tomcat-9.0.71/webapps'
 	              }}
 }
 post
