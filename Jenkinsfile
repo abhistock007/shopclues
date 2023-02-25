@@ -19,4 +19,4 @@ pipeline {
 	              }}
 }post{
 always{
-emailext body: 'summary', subject: 'email notification', to: 'tusharmangre007@gmail.com'}}
+emailext body: 'summary', subject: 'email notification', to: 'tusharmangre007@gmail.com'}}}
