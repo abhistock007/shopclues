@@ -17,6 +17,12 @@ pipeline {
 			
 			sh 'cp /home/ubuntu/Documents/grras/amazon/target/shopclues.war /home/ubuntu/Downloads/apache-tomcat-9.0.71/webapps'
 	              }}
-}post{
-always{
-emailext body: 'summary', subject: 'email notification', to: 'tusharmangre007@gmail.com'}}}
+}
+post
+{
+always
+{
+emailext body: 'summary', subject: 'email notification', to: 'tusharmangre007@gmail.com'
+}
+}
+}
